@@ -52,6 +52,14 @@ const questions = [
         name: 'contributors',
 
     },
+
+    //Asks if there's anything else they would like to include 
+    {
+        type: 'input',
+        message: 'Is there any other information you would like to include in this README? if none write "none" ',
+        name: 'otherInfo',
+
+    },
     //asks user for git hub user name 
     {
         type: 'input',
@@ -129,8 +137,19 @@ function init() {
             }
 
         })
+
+        fs.appendFileSync("README.md", ("## " + response.otherInfo) + '\n', function (err) {
+
+            if (err) {
+                console.log(err)
+            }
+            else {
+                console.log("Success")
+            }
+
+        })
         // this will create the 2nd line of readme discribing the application was developed by the users reponse to gitHubUserName 
-        fs.appendFileSync("README.md", ("This application was developed by: " + response.gitHubUserName + '\n') + '\n', function (err) {
+        fs.appendFileSync("README.md", ("##### This application was developed by: " + response.gitHubUserName + '\n') + '\n', function (err) {
 
             if (err) {
                 console.log(err)

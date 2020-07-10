@@ -8,7 +8,6 @@ The application prompts the user with questions from a Node package. The applica
 none
 ## Licence(s)
 none
-This application was developed by: RecordSword
+## Video
+##### This application was developed by: RecordSword
 
-## Recording of Video showing code at work
-https://drive.google.com/file/d/1k9RzXFIbB0PqpnxcF8JDuqPpZcLz6Gs7/preview

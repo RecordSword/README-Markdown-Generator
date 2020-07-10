@@ -11,4 +11,4 @@ none
 This application was developed by: RecordSword
 
 ## Recording of Video showing code at work
-<iframe src="https://drive.google.com/file/d/1k9RzXFIbB0PqpnxcF8JDuqPpZcLz6Gs7/preview" width="640" height="480"></iframe>
+https://drive.google.com/file/d/1k9RzXFIbB0PqpnxcF8JDuqPpZcLz6Gs7/preview
